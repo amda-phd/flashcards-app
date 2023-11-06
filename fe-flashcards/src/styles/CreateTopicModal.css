@@ -1,0 +1,48 @@
+.CreateTopicModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto; /* Center the modal */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.CreateTopicModal h2 {
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.CreateTopicModal label {
+  display: block;
+  margin-bottom: 5px; /* Add some bottom margin for spacing */
+}
+
+.CreateTopicModal input,
+.CreateTopicModal select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.CreateTopicModal button {
+  padding: 10px 20px;
+  margin-right: 10px; /* Add some right margin for spacing */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.CreateTopicModal button.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.CreateTopicModal button.secondary {
+  background-color: #ccc;
+  color: #fff;
+}
